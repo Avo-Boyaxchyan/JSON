@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    position: relative;
+}
+
+#container {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.add-inp {
+    width: 800px;
+    height: 25px;
+    margin-bottom: 15px;
+    border: solid 1.5px silver;
+    border-radius: 6px;
+    padding-left: 7px;
+}
+
+.add-text {
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: solid 1.5px silver;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+.add-btn {
+    border: none;
+    background-color: #1061FEFF;
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    user-select: none;
+    cursor: pointer;
+    
+}
+
+.add-btn:hover {
+    background-color: rgb(53, 119, 250);
+}
+
+.add-btn:active {
+    background-color: rgb(17, 75, 192);
+}
+
+h1 {
+    user-select: none;
+}
+
+.add-btn {
+    margin-bottom: 20px;
+}
+
+.my-list {
+    list-style: none;
+    margin-bottom: -1px;
+    height: 60px;
+    border-radius: 6px;
+    border: solid 1.5px rgb(155, 152, 152);
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    margin: 0%;
+}
+
+.pgf {
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+    margin: 0%;
+
+
+}
+
+.del {
+    position: absolute;
+    right: 5px;
+    top: 18px;
+    color: white;
+    background-color: rgb(192, 192, 192);
+    border: none;
+    height: 25px;
+    width: 65px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+}
+
+.del:hover {
+    opacity: 50%;
+}
+
+.del:active {
+    opacity: 100%;
+}
+
