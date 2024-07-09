@@ -49,8 +49,10 @@ for(const msg of myList) {
 document.querySelector('.add-btn').addEventListener('click', (event) => {
     event.preventDefault();
 
-    let userName = document.querySelector('.add-inp').value;
-    let msg = document.querySelector('.add-text').value;
+    let input = document.querySelector('.add-inp');
+    let userName = input.value;
+    let text = document.querySelector('.add-text');
+    let msg = text.value;
 
     const msgObj = {
         name: userName,
@@ -64,7 +66,7 @@ document.querySelector('.add-btn').addEventListener('click', (event) => {
 
     createNewMsg(msgObj);
 
-    document.querySelector('.add-inp').value = '';
-    document.querySelector('.add-text').value = '';
+    input.reset();
+    text.reset();
 })
 
