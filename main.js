@@ -66,7 +66,7 @@ document.querySelector('.add-btn').addEventListener('click', (event) => {
 
     createNewMsg(msgObj);
 
-    input.reset();
-    text.reset();
+    input.value = '';
+    text.value = '';
 })
 
